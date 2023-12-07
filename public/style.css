@@ -1,0 +1,369 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame .div {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 8192px;
+    position: relative;
+}
+
+.frame .element {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 1024px;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.frame .view {
+    position: absolute;
+    width: 629px;
+    height: 436px;
+    top: 79px;
+    left: 740px;
+}
+
+.frame .overlap-group {
+    position: absolute;
+    width: 629px;
+    height: 416px;
+    top: 0;
+    left: 0;
+}
+
+.frame .oldPhoto {
+    position: absolute;
+    width: 602px;
+    height: 386px;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+}
+
+.frame .newPhoto {
+    position: absolute;
+    width: 602px;
+    height: 386px;
+    top: 0;
+    left: 27px;
+    z-index: 0;
+}
+
+.frame .rectangle {
+    position: absolute;
+    width: 602px;
+    height: 386px;
+    top: 0;
+    left: 27px;
+    border: 2px solid #403730;
+}
+
+.frame .view-2 {
+    position: absolute;
+    width: 288px;
+    height: 1px;
+    top: 435px;
+    left: 156px;
+}
+
+.frame .line {
+    position: absolute;
+    width: 144px;
+    height: 4px;
+    top: -3px;
+    left: 0;
+}
+
+.frame .img {
+    position: absolute;
+    width: 144px;
+    height: 4px;
+    top: -3px;
+    left: 144px;
+}
+
+.frame .overlap-wrapper {
+    position: absolute;
+    width: 1442px;
+    height: 395px;
+    top: 565px;
+    left: 0;
+}
+
+.frame .overlap {
+    position: relative;
+    width: 1440px;
+    height: 395px;
+    background-color: #403730;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    width: 803px;
+    top: 45px;
+    left: 319px;
+    font-family: 'Sansation Light-Light', serif;
+    font-weight: 300;
+    color: #f1eee8;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.frame .overlap-group-wrapper {
+    position: absolute;
+    width: 249px;
+    height: 188px;
+    top: 173px;
+    left: 268px;
+}
+
+.frame .overlap-group-2 {
+    position: relative;
+    height: 188px;
+}
+
+.frame .line-2 {
+    position: absolute;
+    width: 2px;
+    height: 188px;
+    top: 0;
+    left: 28px;
+}
+
+.frame .line-3 {
+    position: absolute;
+    width: 249px;
+    height: 3px;
+    top: 159px;
+    left: 0;
+}
+
+.frame .div-wrapper {
+    position: absolute;
+    width: 249px;
+    height: 188px;
+    top: 34px;
+    left: 923px;
+    transform: rotate(-180deg);
+}
+
+.frame .line-4 {
+    position: absolute;
+    width: 2px;
+    height: 188px;
+    top: 0;
+    left: 28px;
+    transform: rotate(180deg);
+}
+
+.frame .line-5 {
+    position: absolute;
+    width: 249px;
+    height: 3px;
+    top: 159px;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.frame .view-3 {
+    position: absolute;
+    width: 568px;
+    height: 382px;
+    top: 109px;
+    left: 100px;
+}
+
+.frame .p {
+    width: 564px;
+    top: 82px;
+    left: 0;
+    font-family: "Sansation Light-Light", Helvetica, serif;
+    font-weight: 300;
+    color: #403730;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.frame .view-4 {
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    top: 330px;
+    left: 0;
+}
+
+.frame .overlap-group-3 {
+    position: relative;
+    width: 218px;
+    height: 52px;
+    border: 2px solid #403730;
+}
+.frame .overlap-group-31 {
+    position: relative;
+    width: 218px;
+    height: 52px;
+    border: 2px solid #403730;
+    top: -56px;
+    left: 245px;
+    text-align: center;
+}
+
+.frame .text-wrapper-21 {
+    width: 167px;
+    top: 9px;
+    left: 24px;
+    font-family: "Sansation Light-Light", Helvetica, serif;
+    font-weight: 300;
+    color: #403730;
+    font-size: 20px;
+    line-height: 30px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.frame .text-wrapper-2 {
+    width: 167px;
+    top: 9px;
+    left: 24px;
+    font-family: "Sansation Light-Light", Helvetica, serif;
+    font-weight: 300;
+    color: #403730;
+    font-size: 20px;
+    line-height: 30px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.frame .text-wrapper-3 {
+    width: 487px;
+    top: 0;
+    left: 0;
+    font-family: "Sansation Light-Light", Helvetica, serif;
+    font-weight: 300;
+    color: #403730;
+    font-size: 48px;
+    line-height: 40px;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.frame .element-2 {
+    top: 3072px;
+    left: 0;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .element-3 {
+    top: 5120px;
+    left: 0;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .element-4 {
+    top: 6144px;
+    left: 2px;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .element-5 {
+    top: 7168px;
+    left: 3px;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .element-6 {
+    top: 4096px;
+    left: 1px;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .element-7 {
+    top: 2048px;
+    left: 0;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.frame .view-5 {
+    position: absolute;
+    width: 1442px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+}
+
+.frame .overlap-2 {
+    width: 2560px;
+    height: 1024px;
+    background-image: url(img/oldSPB.png);
+    background-size: 100% 100%;
+}
+
+.frame .text-wrapper-4 {
+    width: 828px;
+    top: 101px;
+    left: 1206px;
+    color: #715E52;
+    font-family: Sansation, serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.button {
+    background-color: transparent; /* Устанавливаем прозрачный цвет фона */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур вокруг кнопки при фокусе */
+    /* Добавляем цвет текста */
+    color: #000000; /* Цвет текста */
+    /* Дополнительные стили, чтобы определить вид кнопки */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+.buttonPhoto {
+    background-color: transparent; /* Устанавливаем прозрачный цвет фона */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур вокруг кнопки при фокусе */
+    /* Добавляем цвет текста */
+    color: #000000; /* Цвет текста */
+    /* Дополнительные стили, чтобы определить вид кнопки */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
